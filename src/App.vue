@@ -1,5 +1,13 @@
+<script setup>
+import Navbar from './components/structure/Navbar.vue';
+import Footer from './components/structure/Footer.vue';
+</script>
+
 <template>
-  <h1>Vue 3 + Vite + Vue Router</h1>
-  <router-view />
+  <main class="flex flex-col min-h-screen">
+    <Navbar />
+    <router-view />
+    <Footer />
+  </main>
 </template>
 
