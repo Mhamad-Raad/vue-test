@@ -29,7 +29,7 @@ const onSubmit = () => {
       Submit
     </button>
 
-    <ul class="mt-4 space-y-2">
+    <ul class="mt-4 space-y-2 max-h-[100px] overflow-y-scroll">
       <li
         v-for="(c, index) in comments"
         :key="index"
